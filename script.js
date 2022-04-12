@@ -49,7 +49,7 @@ function randomDiceRoll() {
 
 function showDice(dice) {
     diceEl.classList.remove('hidden')
-    diceEl.src = `dice-${dice}.png`
+    diceEl.src = `assets/dice-${dice}.png`
 }
 
 
